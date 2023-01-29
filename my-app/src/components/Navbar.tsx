@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from '../images/logo_KEUNE.svg';
 import logoWhite from '../images/logo_KEUNE_WHITE.svg';
-import { MenuItem } from '../interfaces/interfaces';
+import { MenuItemInterface } from '../interfaces/interfaces';
+import MenuItem from './MenuItem';
 import Socials from './Socials';
 
 const Navbar = ({ index }: { index: number }) => {
-	const menuItems: MenuItem[] = [
+	const menuItems: MenuItemInterface[] = [
 		{
 			name: 'Nowości',
 		},
@@ -37,9 +38,10 @@ const Navbar = ({ index }: { index: number }) => {
 				</div>
 				<div className="menuItems-container">
 					{menuItems.map((menuItem) => (
-						<div className="menuItem-box">
-							<p className="menuItem">{menuItem.name}</p>
-						</div>
+						<MenuItem
+							name={menuItem.name}
+							dropdownItems={menuItem.dropdownItems}
+						/>
 					))}
 					<Socials index={index} />
 				</div>

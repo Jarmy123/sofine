@@ -23,11 +23,15 @@ const Slider = () => {
 	const [currentSlide, setCurrentSlide] = useState(0);
 
 	const handlePreviousClick = () => {
-		setCurrentSlide(currentSlide === 0 ? 1 : currentSlide - 1);
+		setCurrentSlide(
+			currentSlide === 0 ? slidesData.length - 1 : currentSlide - 1
+		);
 	};
 
 	const handleNextClick = () => {
-		setCurrentSlide(currentSlide === 1 ? 0 : currentSlide + 1);
+		setCurrentSlide(
+			currentSlide === slidesData.length - 1 ? 0 : currentSlide + 1
+		);
 	};
 
 	return (

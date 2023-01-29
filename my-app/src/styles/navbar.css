@@ -21,6 +21,10 @@
 	}
 }
 
+.menuItem-box {
+	position: relative;
+}
+
 .logo-container {
 	padding: 30px;
 }
@@ -44,6 +48,7 @@
 .social-icon {
 	height: 15px;
 	position: absolute;
+	cursor: pointer;
 }
 
 .facebook {

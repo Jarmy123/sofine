@@ -19,7 +19,7 @@ const GalleryItem3 = ({
 				</div>
 				<div className="gallery3-cta-container">
 					<p className="gallery-cta-text">Odkryj Serie</p>
-					<p>{'>'}</p>
+					<p className="gallery-arrow">{'>'}</p>
 				</div>
 			</div>
 		</div>

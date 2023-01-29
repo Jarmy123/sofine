@@ -1,4 +1,4 @@
-export interface MenuItem {
+export interface MenuItemInterface {
 	name: string;
 	dropdownItems?: string[];
 }

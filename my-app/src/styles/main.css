@@ -1,6 +1,8 @@
 @import 'navbar.css';
 @import 'slider.css';
 @import 'gallery.css';
+@import 'dropdown.css';
+
 body {
 	margin: 0;
 	padding: 0;

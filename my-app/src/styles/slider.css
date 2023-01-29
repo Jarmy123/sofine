@@ -23,6 +23,7 @@
 	font-size: 32px;
 	background-repeat: no-repeat;
 	background-position: top;
+	background-size: cover;
 }
 @media screen and (max-width: 900px) {
 	.slide-item {

@@ -1,0 +1,15 @@
+@import 'navbar.css';
+@import 'slider.css';
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.white {
+	color: white;
+	border-color: white;
+}
+.whiteBg {
+	background-color: white;
+}
